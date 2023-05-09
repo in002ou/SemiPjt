@@ -13,7 +13,9 @@
 </head>
 <body>
 	
-	<img src="${contextPath }/resources/images/animal2.jpg" width="200px">
+	<div>
+		<a href="${contextPath}/upload/list.do">UPLOAD</a>
+	</div>
 	
 </body>
 </html>
