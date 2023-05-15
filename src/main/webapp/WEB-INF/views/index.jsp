@@ -13,7 +13,7 @@
 </head>
 <body>
 	
-	<img src="${contextPath }/resources/images/animal2.jpg" width="200px">
+	<a href="${contextPath}/store/price.do">스토어</a>
 	
 </body>
 </html>
