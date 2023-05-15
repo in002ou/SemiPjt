@@ -13,7 +13,12 @@
 </head>
 <body>
 	
+
 	<a href="${contextPath}/store/price.do">스토어</a>
 	
+
+	<img src="${contextPath }/resources/images/animal2.jpg" width="200px">
+	
+
 </body>
 </html>
