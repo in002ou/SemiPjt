@@ -13,9 +13,7 @@
 </head>
 <body>
 	
-	<div>
-		<a href="${contextPath}/upload/list.do">UPLOAD</a>
-	</div>
+	<a href="${contextPath }">호호</a>
 	
 </body>
 </html>
