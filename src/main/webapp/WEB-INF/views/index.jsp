@@ -14,6 +14,6 @@
 <body>
 	
 	<img src="${contextPath }/resources/images/animal2.jpg" width="200px">
-	
+	d
 </body>
 </html>
