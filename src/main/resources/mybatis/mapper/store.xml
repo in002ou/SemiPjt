@@ -4,8 +4,25 @@
   "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <!-- namespace는 @Mapper를 지정한다. -->
-<mapper namespace="com.gdu.app.mapper.">
+<mapper namespace="com.gdu.app.mapper.StoreMapper">
 
+
+	<select id="productList" resultType="ProductDTO">
+		SELECT PRODUCT_NO, PRODUCT_NAME, PRICE, PRODUCT_CONTENT
+		  FROM PRODUCT_T
+	</select>
+	
+	<select id="productDetail" parameterType="int" resultType="ProductDTO">
+		SELECT PRODUCT_NO, PRODUCT_NAME, PRICE, PRODUCT_CONTENT
+		  FROM PRODUCT_T
+		 WHERE PRODUCT_NO = #{productNo}
+	</select>
+	
+	<insert id="insertCart" parameterType="CartDTO">
+		INSERT INTO CART(CART_NO, PRODUCT_NO, COUNT)
+			VALUE(CART_SEQ.NEXTVAL, #{productNo}, #{count})
+	</insert>
+	
 	
 	
 </mapper>

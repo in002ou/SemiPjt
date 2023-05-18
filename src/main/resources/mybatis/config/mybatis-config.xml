@@ -12,7 +12,8 @@
 
 	<!-- typeAliases -->
 	<typeAliases>
-		
+		<typeAlias alias="ProductDTO" type="com.gdu.app.domain.ProductDTO"/>
+		<typeAlias alias="CartDTO" type="com.gdu.app.domain.CartDTO"/>
 	</typeAliases>
 
 </configuration>
